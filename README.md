@@ -8,7 +8,7 @@
 - Adriana Lopes Machado Ishikawa
 - Guilherme José Lourenço da Costa
 - Hugo Sena Matos
-- Luiz Gabriel Alcantara Brito
+- Luiz Felipe M. Guimarães
 - Marcelo de Sá Mendoza
 
 ## Resumo
