@@ -13,7 +13,7 @@
 
 ## Resumo
 
-Este trabalho tem por objetivo apresentar a definição e detalhamento dos principais processos para a gestão de banco de dados de uma empresa do segmento de varejo, com detalhamento dos objetivos e os resultados esperados para cada processo. Além disso, contempla a descrição das atividades dos processos e os seus responsáveis, por meio da apresentação da matriz de responsabilidades (Modelo RACI).
+Este trabalho tem por objetivo apresentar a definição e detalhamento dos principais processos para a gestão de banco de dados de uma gestão de condominios, com detalhamento dos objetivos e os resultados esperados para cada processo. Além disso, contempla a descrição das atividades dos processos e os seus responsáveis, por meio da apresentação da matriz de responsabilidades (Modelo RACI).
 
 **Palavras-chave:** banco de dados, processos, gestão, RACI.
 
