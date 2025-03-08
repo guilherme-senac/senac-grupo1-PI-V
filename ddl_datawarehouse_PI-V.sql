@@ -226,7 +226,7 @@ CREATE TABLE IF NOT EXISTS `dim_morador` (
   PRIMARY KEY (`Id`)
 ) ENGINE = InnoDB;
 
-CREATE TABLE IF NOT EXISTS `datawarehouse`.`dim_condominio` (
+CREATE TABLE IF NOT EXISTS `dim_condominio` (
   `Id` INT NOT NULL AUTO_INCREMENT,
   `Nmcondominio` VARCHAR(255) NULL DEFAULT NULL,
   `referencia` VARCHAR(255) NULL DEFAULT NULL,
@@ -250,27 +250,27 @@ CREATE TABLE IF NOT EXISTS `dim_unidade_habitacional` (
 ) ENGINE = InnoDB;
 
 -- Tabela Dimensão de Tipo de Reserva
-CREATE TABLE IF NOT EXISTS `datawarehouse`.`dim_tipo_reserva` (
+CREATE TABLE IF NOT EXISTS `dim_tipo_reserva` (
     `Id` INT NOT NULL AUTO_INCREMENT,
     `Descricao` VARCHAR(255) NULL DEFAULT NULL,
     PRIMARY KEY (`Id`)
 ) ENGINE = InnoDB;
 
 -- Tabela Dimensão de Status de Reserva
-CREATE TABLE IF NOT EXISTS `datawarehouse`.`dim_status_reserva` (
-    `Id` INT NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS `dim_status_reserva` (
+    `Id` INT NULL DEFAULT NULL,
     `Descricao` VARCHAR(255) NULL DEFAULT NULL,
-    PRIMARY KEY (`Id`)
+	INDEX `Id` (`Id` ASC) VISIBLE
 ) ENGINE = InnoDB;
 
 
-CREATE TABLE IF NOT EXISTS `datawarehouse`.`dim_tipo_ouvidoria` (
+CREATE TABLE IF NOT EXISTS `dim_tipo_ouvidoria` (
   `Id` INT NOT NULL,
   `Descricao` VARCHAR(50) NULL DEFAULT NULL,
   PRIMARY KEY (`Id`))
 ENGINE = InnoDB;
 
-CREATE TABLE IF NOT EXISTS `datawarehouse`.`dim_ouvidoria` (
+CREATE TABLE IF NOT EXISTS `dim_ouvidoria` (
   `Id` INT NOT NULL AUTO_INCREMENT,
   `TipoOuvidoriaID` INT NULL DEFAULT NULL,
   `Descricao` TEXT NULL DEFAULT NULL,
