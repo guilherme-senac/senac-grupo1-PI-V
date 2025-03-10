@@ -13,9 +13,9 @@
 
 ## Resumo
 
-Este trabalho tem por objetivo apresentar a definição e detalhamento dos principais processos para a gestão de banco de dados de uma gestão de condominios, com detalhamento dos objetivos e os resultados esperados para cada processo. Além disso, contempla a descrição das atividades dos processos e os seus responsáveis, por meio da apresentação da matriz de responsabilidades (Modelo RACI).
+Este trabalho tem por objetivo apresentar a aplicação de conceitos, processos, técnicas e ferramentas necessárias para um projeto de sistema de apoio à decisão na gestão de condomínios residenciais. Na primeira etapa do trabalho foram apresentados o objetivo do projeto; o Modelo Entidade Relacionamento; o Modelo Dimensional; a granularidade, tabelas de fato e tabelas de dimensão; e o processo de Extração, Transformação e Carga (ETL). Na segunda etapa foram apresentadas as operações de Processamento Analítico Online (OLAP) que permitem obter informações para gestão.
 
-**Palavras-chave:** banco de dados, processos, gestão, RACI.
+**Palavras-chave:** gestão de condomínios, banco de dados, modelo dimensional, ETL, OLAP.
 
 ## Conteúdo
 
