@@ -158,23 +158,23 @@ sudo mysql_secure_installation
    - 1. Acesse o MySQL no terminal ou prompt de comando:
      ```sh
      mysql -u root -p
-     ```sh
+     ```
      (Se não houver senha, omita o -p)
    - 2. Crie o banco de dados (se ainda não existir):
      ```sh
      CREATE DATABASE IF NOT EXISTS condo;
-     ```sh
+     ```
    - 3. Saia do Mysql digitando ```sh exit ```sh
    - 4. Importe o backup para o banco de dados:
      ```sh
      mysql -u root -p condo < backup_database_condo.sql
-     ```sh
+     ```
      (Insira a senha se solicitado)
    - 5. Verifique se a importação foi bem-sucedida:
      ```sh
      mysql -u root -p
      USE condo;
      SHOW TABLES;
-     ```sh
+     ```
    
 **Nota:** Este arquivo README.md fornece uma visão geral do projeto integrador desenvolvido no curso de Tecnologia em Banco de Dados do SENAC. Para mais detalhes, consulte a documentação completa do projeto.
