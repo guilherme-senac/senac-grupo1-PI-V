@@ -142,7 +142,6 @@ No Linux, é recomendável executar o script de segurança pós-instalação do 
 ```sh
 sudo mysql_secure_installation
 ```
-**Pronto!**
 
 ### Passo 4 (opcional): Instalação do MySQL Workbench:
 
@@ -180,5 +179,43 @@ sudo mysql_secure_installation
      USE condo;
      SHOW TABLES;
      ```
-   
+### Passo 6: Conectando o Power BI ao MySQL
+## Pré-requisitos
+Antes de iniciar a conexão, certifique-se de que possui os seguintes requisitos:
+1. **Banco de dados MySQL** instalado e em execução.
+2. **Credenciais de acesso** ao banco de dados.
+3. **Conector ODBC ou MySQL para Power BI** instalado.
+4. **Power BI Desktop** devidamente instalado.
+
+## Passo a Passo para Conectar o Power BI ao MySQL
+
+## 1. Instalar o Conector MySQL
+Caso ainda não tenha o conector instalado:
+- Baixe e instale o **MySQL Connector/ODBC** através do site oficial da MySQL: [Download MySQL Connector](https://dev.mysql.com/downloads/connector/odbc/).
+
+## 2. Configurar a Conexão no Power BI
+1. Abra o **Power BI Desktop**.
+2. No menu superior, clique em **Obter Dados**.
+3. Na barra de pesquisa, digite **MySQL** e selecione **Banco de Dados MySQL**.
+4. Clique em **Conectar**.
+
+## 3. Configurar os Dados de Conexão
+1. No campo **Servidor**, insira `localhost`.
+2. No campo **Banco de Dados**, digite `datawarehouse`.
+3. Escolha o **Modo de Autenticação**:
+   - **Autenticação básica** → Insira o usuário `root` e a senha correspondente.
+4. Clique em **Avançar**.
+
+## 4. Selecionar Tabelas e Importar Dados
+1. Após estabelecer a conexão, o Power BI exibirá as tabelas disponíveis no banco de dados.
+2. Selecione as tabelas fato e dimensão que deseja importar.
+3. Escolha entre:
+   - **Modo Importação**: Carrega os dados diretamente no Power BI.
+4. Clique em **Carregar** para importar os dados.
+
+## 5. Criar Relatórios e Visualizações
+Após a importação, utilize as ferramentas do Power BI para criar gráficos, tabelas dinâmicas e relatórios interativos para análise de dados.
+
 **Nota:** Este arquivo README.md fornece uma visão geral do projeto integrador desenvolvido no curso de Tecnologia em Banco de Dados do SENAC. Para mais detalhes, consulte a documentação completa do projeto.
+
+**Pronto!**
