@@ -155,26 +155,26 @@ sudo mysql_secure_installation
    - Password: Senha do usuário (senha que configurou na instalação do banco).
 
 ### Passo 5: Carga dos dados
-   -1. Acesse o MySQL no terminal ou prompt de comando:
+   - 1. Acesse o MySQL no terminal ou prompt de comando:
      ```sh
      mysql -u root -p
      ```
      (Se não houver senha, omita o -p)
      
-   -2. Crie o banco de dados (se ainda não existir):
+   - 2. Crie o banco de dados (se ainda não existir):
      ```sh
      CREATE DATABASE IF NOT EXISTS condo;
      ```
      
-   -3. Saia do Mysql digitando ```sh exit ```
+   - 3. Saia do Mysql digitando ```sh exit ```
    
-   -4. Importe o backup para o banco de dados:
+   - 4. Importe o backup para o banco de dados:
      ```sh
      mysql -u root -p condo < backup_database_condo.sql
      ```
      (Insira a senha se solicitado)
      
-   -5. Verifique se a importação foi bem-sucedida:
+   - 5. Verifique se a importação foi bem-sucedida:
      ```sh
      mysql -u root -p
      USE condo;
