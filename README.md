@@ -19,26 +19,25 @@ Este trabalho tem por objetivo apresentar a aplicação de conceitos, processos,
 
 ## Conteúdo
 
-# 1.	Introdução – Objetivo do Projeto	
+### 1.	Introdução – Objetivo do Projeto	
 1.1.	Requisitos e regras do negócio	
-# 2.	Modelo Dimensional	
+### 2.	Modelo Dimensional	
 2.1.	Avaliação do Modelo Conceitual	
 2.2.	Construção do Modelo Dimensional	
 2.3.	Competências do Modelo Dimensional	
 2.4.	Definição dos níveis de granularidade	
 2.5.	Tabelas Fato e Dimensões	
-# 3.	ETL	
+### 3.	ETL	
 3.1.	Extração: Coletando informações	
 3.2.	Transformação: Organizando e limpando	
 3.3.	Transformação de dados com Pentaho	
 3.4.	Carregamento: Armazenamento em um lugar seguro	
 3.5.	A importância do ETL	
 3.6.	Fontes de Dados Adicionais	
-Não foram carregadas fontes de dados adicionais ao projeto.	
 3.7.	OLTP	
-# 4.	OLAP	
-# 5.	Conclusão	
-# Referências	
+### 4.	OLAP	
+### 5.	Conclusão	
+### Referências	
 
 ### Instalação do docker e pentaho
 
